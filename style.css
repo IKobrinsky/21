@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:ital@1&display=swap');
+
+.data
+{
+    display: flex;
+    align-items: center;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+.greetings,
+p,
+h1,
+h2
+{
+    font-family: 'Noto Serif', serif;
+}
+
+h1{
+    color: #230575;
+    align-self: center;
+}
+
+.flex-container
+{
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #E6E6E6;
+    padding: 5px;
+    height: 100%;
+}
+
+.header
+{
+    display:flex;
+    align-items: center;   
+    justify-content: space-between;
+    height: 25%;
+    margin-bottom: 3em;
+    background-color: #CED8F6;
+}
+
+ul
+{
+    display:flex;
+    list-style-type: none;   
+}
+
+ul li
+{
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.5rem;
+    color: #848484;
+    font-weight: 800;
+}
+
+.logo img
+{
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+.myImg
+{
+    margin-top: 150px;
+    padding-left: 20px;
+    flex-basis: 450px;
+}
+
+.about_me
+{
+    display:flex;
+    flex-direction: column;
+    flex: 1 0 auto; 
+}
+
+.fullname
+{
+    margin-right: 20px;
+    flex-basis: 750px;
+    color:#1e37c2
+}
+
+.knowledge
+{
+    
+    flex-basis: 100%;
+    align-self: center;
+}
+
+.footer
+{
+    margin: auto;
+    width: 100%;
+    background-color: #2a78d1;
+    
+  }
+
+  .footer h2
+  {
+    width: 315px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
